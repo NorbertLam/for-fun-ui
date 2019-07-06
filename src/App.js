@@ -2,10 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import HomeContainer from './containers/HomeContainer'
+
 function App() {
   return (
     <div>
-      <h1>For Fun UI</h1>
+      <HomeContainer />
     </div>
   );
 }
